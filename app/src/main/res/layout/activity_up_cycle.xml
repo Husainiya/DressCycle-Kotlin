@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/badge"
+    tools:context=".UpCycle">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarSize="7dp"
+        android:scrollbarStyle="outsideInset">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#5BA205"
+            android:layout_height="?actionBarSize">
+
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/baseline_arrow_back_24">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/menu_icon"
+                android:layout_width="62dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/Dark_Green"
+                android:padding="5dp"
+                app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="17dp"
+                android:background="@color/badge"
+                android:elevation="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/Search"
+                    android:textColor="@color/Dark_Green"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/search_mag_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5BA205">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/bungee_inline"
+                android:text="@string/Upcycle_text"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/Dark_Green"
+                android:textSize="40sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:elevation="50dp">
+
+
+            <ImageView
+                android:layout_width="189dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="23dp"
+                android:src="@drawable/r1" />
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="54dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/R1"
+                android:textColor="@color/Dark_Green"
+                android:textSize="22sp"
+                android:fontFamily=""
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="77dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/Dark_Green"
+                android:elevation="150dp"
+                android:padding="15dp"
+                android:text="@string/R5"
+                android:textColor="@color/yellow">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:elevation="50dp">
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="23dp"
+                android:src="@drawable/r2p" />
+
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/R2"
+                android:textColor="@color/Dark_Green"
+                android:textSize="22sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="77dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/Dark_Green"
+                android:elevation="150dp"
+                android:padding="15dp"
+                android:text="@string/R5"
+                android:textColor="@color/yellow">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:elevation="50dp">
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="23dp"
+                android:src="@drawable/r3" />
+
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/R3"
+                android:textColor="@color/Dark_Green"
+                android:textSize="22sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="77dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/Dark_Green"
+                android:elevation="150dp"
+                android:padding="15dp"
+                android:text="@string/R5"
+                android:textColor="@color/yellow">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:elevation="50dp">
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="23dp"
+                android:src="@drawable/r5" />
+
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/R4"
+                android:textColor="@color/Dark_Green"
+                android:textSize="22sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="77dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/Dark_Green"
+                android:elevation="150dp"
+                android:padding="15dp"
+                android:text="@string/R5"
+                android:textColor="@color/yellow">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="#5BA205">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:layout_marginStart="479dp"
+                android:layout_marginEnd="479dp"
+                android:background="#5BA205"
+                android:elevation="8dp"
+                android:orientation="horizontal"
+                app:itemIconSize="28dp"
+                app:itemIconTint="@color/Dark_Green"
+                app:itemRippleColor="@color/Dark_Green"
+                app:itemTextColor="@color/Dark_Green"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nav">
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/dashboard"
+        android:id="@+id/dashboard"
+        android:icon="@drawable/baseline_home_24"/>
+
+
+    <item android:title="@string/donate"
+        android:id="@+id/donate"
+        android:icon="@drawable/donate_icon"/>
+
+
+    <item android:title="@string/sale"
+        android:id="@+id/sale"
+        android:icon="@drawable/sale_icon"/>
+
+
+    <item android:title="@string/upcycle"
+        android:id="@+id/upcycle"
+        android:icon="@drawable/recycle_icon"/>
+
+
+    <item android:title="@string/user_profile"
+        android:id="@+id/user"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

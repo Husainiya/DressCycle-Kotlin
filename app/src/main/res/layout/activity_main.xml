@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#5BA205">
+
+    <ImageView
+        android:id="@id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/imageC"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        android:transitionName="logo_image"/>
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1490dp"
+        android:layout_marginBottom="410dp"
+        android:fontFamily="cursive"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="362dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/appname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="280dp"
+        android:fontFamily="@font/caladea"
+        android:text="@string/tagline"
+        android:textAlignment="center"
+        android:textColor="@color/Dark_Green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:transitionName="logo_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="162dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/black_green"
+        android:text="@string/B1"
+        android:textColor="@color/yellow"
+        android:textSize="23sp"
+        android:onClick="onClickMethod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

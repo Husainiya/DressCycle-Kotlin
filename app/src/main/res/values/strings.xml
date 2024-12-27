@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name" translatable="false">My</string>
+    <string name="heading" translatable="false">Dress Cycle</string>
+    <string name="tagline" translatable="false">Give Your Dresses a Second Life</string>
+    <string name="logo_description" translatable="false">Company Logo</string>
+    <string name="welcome_message" translatable="false">Hello there, Welcome Back</string>
+    <string name="sign_in_prompt" translatable="false">Sign In to continue</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="hint" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="hintpassword" translatable="false">Password</string>
+    <string name="forgetpassword" translatable="false">FORGET PASSWORD?</string>
+    <string name="start" translatable="false">Sing in</string>
+    <string name="signup" translatable="false">New User? SIGN UP</string>
+    <string name="welcome" translatable="false">WELCOME!</string>
+    <string name="message">SignUp to start your new journey</string>
+    <string name="hint_m">Full Name</string>
+    <string name="user">User Name</string>
+    <string name="email">Email</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="pass">Password</string>
+    <string name="submit">Register</string>
+    <string name="Add">Already have an account?</string>
+    <string name="Search">Search here</string>
+    <string name="categories">Categories</string>
+    <string name="donate">Donate</string>
+    <string name="dashboard">Home</string>
+    <string name="sale">Sale</string>
+    <string name="upcycle">Up cycle</string>
+    <string name="user_profile">User Profile</string>
+    <string name="Recently_view">MOST VIEWED</string>
+    <string name="D_details1">Green Earth Charity</string>
+    <string name="D_details2">Donate Yours</string>
+    <string name="D_details3">Second Chance Thrift Store</string>
+    <string name="D_details4">Charity Foundation</string>
+    <string name="D_details5">Clothing Donation</string>
+    <string name="D_details6">Charity Store</string>
+    <string name="ProfileName">John Tori Kelly</string>
+    <string name="ProfileName2">john_tori_kelly</string>
+    <string name="achievement">Achievement </string>
+    <string name="achi">Achievement </string>
+    <string name="achievement1">10 </string>
+    <string name="full_name">Full Name </string>
+    <string name="FullName">john_tori_kelly</string>
+    <string name="email1">john_tori_kelly@123</string>
+    <string name="phone">0773456456</string>
+    <string name="password1">abc123</string>
+    <string name="update">Edit</string>
+    <string name="login_image_description">Login icon</string>
+    <string name="Upcycle_text">Up-cycle Tips</string>
+    <string name="R1">Upcycle Old Dresses</string>
+    <string name="R2">Repurpose Fabric Scraps</string>
+    <string name="R3">7 Tips of UpCycle</string>
+    <string name="R4">Denim to new</string>
+    <string name="R5">View</string>
+    <string name="B1">Next</string>
+    <string name="imageC">null</string>
+    <string name="create_account">Create Account</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Dashboard_fragment">Dashboard</string>
+    <string name="Donate_fragment">Donate</string>
+    <string name="Sale_fragment">Sale</string>
+    <string name="UpCycle_fragment">UpCycle</string>
+    <string name="User_fragment">
+
+</string>
+    <string name="give_your_dresses_a_second_life">Give Your Dresses a Second Life</string>
+
+
+</resources>

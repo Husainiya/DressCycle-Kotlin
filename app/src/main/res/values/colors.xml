@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Primary Color(s)
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#879B74</color>
+    <color name="Dark_Green">#0E3703</color>
+
+    //Secondary colors
+    <color name="badge">#D3EDB9</color>
+    <color name="green1">#3E5226</color>
+
+    //Accent Color(s)
+    <color name="black_green">#032E0E</color>
+    <color name="red">#95C161</color>
+    <color name="yellow">#D5E063</color>
+    <color name="brown">#D7C181</color>
+    <color name="faded_green">#AD4F7845</color>
+
+
+</resources>

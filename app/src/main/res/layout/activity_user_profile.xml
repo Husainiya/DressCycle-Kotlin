@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/badge"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#5BA205"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="95dp"
+            android:fontFamily="@font/bungee_inline"
+            android:includeFontPadding="false"
+            android:text="@string/ProfileName"
+            android:textColor="@color/Dark_Green"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/P_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileName"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/profile"
+            android:fontFamily="@font/bungee_inline"
+            android:includeFontPadding="false"
+            android:text="@string/ProfileName2"
+            android:textColor="#AD1F4216"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:padding="20dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/black_green"
+            app:cardElevation="125dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="47dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/batch">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/achievement8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bungee_inline"
+                    android:includeFontPadding="false"
+                    android:text="@string/achievement"
+                    android:textColor="#F80A0A"
+                    android:textSize="13sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/achievement1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/achievement8"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/bungee_inline"
+                    android:includeFontPadding="false"
+                    android:text="@string/achievement1"
+                    android:textColor="#FFC107"
+                    android:textSize="14sp">
+
+                </TextView>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/black_green"
+            app:cardElevation="125dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="47dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/batch">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/achievement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bungee_inline"
+                    android:includeFontPadding="false"
+                    android:text="@string/achievement"
+                    android:textColor="#F41A08"
+                    android:textSize="13sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/achievement3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/achievement"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/bungee_inline"
+                    android:includeFontPadding="false"
+                    android:text="@string/achievement1"
+                    android:textColor="#FFC107"
+                    android:textSize="14sp">
+
+                </TextView>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/full_name"
+            app:hintTextColor="@color/Dark_Green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="10dp"
+                android:text="@string/FullName"
+                android:textColor="@color/Dark_Green" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/email"
+            app:hintTextColor="@color/Dark_Green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="10dp"
+                android:text="@string/email1"
+                android:textColor="@color/Dark_Green" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/phoneNo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:drawablePadding="10dp"
+                android:text="@string/phone"
+                android:textColor="@color/Dark_Green" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_remove_red_eye_24"
+                android:drawablePadding="10dp"
+                android:text="@string/password1"
+                android:textColor="@color/Dark_Green" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black_green"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/bungee_inline"
+            android:text="@string/update" />
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="37dp"
+        android:background="#5BA205">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#5BA205"
+            android:elevation="8dp"
+            android:orientation="horizontal"
+            app:itemIconSize="40dp"
+            app:itemIconTint="@color/Dark_Green"
+            app:itemRippleColor="@color/Dark_Green"
+            app:itemTextColor="@color/Dark_Green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
