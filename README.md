@@ -59,5 +59,5 @@
 ---
 
 ## Screenshots 📸
-![image alt](https://github.com/Husainiya/DressCycle-Kotlin/tree/1c8670a004cc62039ffe1a34d5cc7fdc11091cf1/Screenshots)
+![image alt](https://github.com/Husainiya/DressCycle-Kotlin/tree/aa5f30734a39622acee881d23f81f09ef35f2d27/Screenshots)
 
